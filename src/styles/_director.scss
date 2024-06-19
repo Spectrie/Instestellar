@@ -13,7 +13,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     max-width: 1200px;
-    @media(max-width: 767px){
+    @media(max-width: 1024px){
         grid-template-columns: 1fr;
         text-align: center;
     }
@@ -22,7 +22,7 @@
 .nolan{
     width: 100%;
     border-radius: 8px;
-    @media(max-width: 767px){
+    @media(max-width: 1024px){
         padding-left: 20px;
         padding-right: 20px;
     }
