@@ -1,0 +1,32 @@
+@use 'variables';
+@use 'hero';
+@use 'header';
+@use 'about';
+@use 'conheca';
+@use 'director';
+@use 'onde-assistir';
+@use 'curiosidades';
+@use 'trailer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+$corDeFundo: #03050f;
+$corLetraTitle: #fff;
+$corFonteBrancaEscura:  #f9f9f9;
+body{
+    background-color: $corDeFundo;
+}
+
+.title-collor{
+    color: $corLetraTitle;
+    font-size: 24px;
+}
+.text-collor{
+    color: $corFonteBrancaEscura;
+    font-size: 14px;
+}

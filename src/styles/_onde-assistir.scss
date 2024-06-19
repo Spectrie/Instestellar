@@ -1,0 +1,36 @@
+.onde-assistir{
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: #5f667028;
+
+    h3{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.middle img{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.onde-assistir-list{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    li{
+        list-style: none;
+    }
+}   
+
+.onde-assistir-list-icon img{
+    width: 100px;
+    border-radius: 12px;
+}
+
+.onde-assistir-contents{
+    max-width: 400px;
+    width: 100%;
+}

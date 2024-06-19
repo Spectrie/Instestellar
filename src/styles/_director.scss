@@ -1,0 +1,29 @@
+.director{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    h3{
+        margin-bottom: 8px;
+    }
+}
+
+.director__conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    @media(max-width: 767px){
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+.nolan{
+    width: 100%;
+    border-radius: 8px;
+    @media(max-width: 767px){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

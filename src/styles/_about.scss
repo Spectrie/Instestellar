@@ -1,0 +1,35 @@
+@use 'variables';
+
+.about{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__conteudos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    max-width: 1200px;
+    @media(max-width:767px){
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        
+    }
+}
+
+.about__conteudos__item{
+    h3{
+        padding-bottom: 16px;
+    }
+}
+.foto{
+    width: 100%;
+    border-radius: 8px;
+    @media(max-width:767px){
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}

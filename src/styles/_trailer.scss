@@ -1,0 +1,18 @@
+.trailer-content{
+    text-align: center;
+    h3{
+        padding-bottom: 12px;
+    }
+}
+
+.trailer{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    @media(max-width: 767px){
+        width: 420px;
+        height: 315;
+    }
+}

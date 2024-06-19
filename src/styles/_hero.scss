@@ -1,0 +1,42 @@
+.hero{
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(../images/milky-way-1684226_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-bottom: 8px;
+        }
+        p{
+            padding-bottom: 8px;
+        }
+
+        &__branding{
+            padding-top: 120px;
+        }
+
+        button{
+            margin-top: 16px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            width: 300px;
+            height: 55px;
+            background-color: rgb(59, 21, 97);
+            color: #fff;
+            border-radius: 8px;
+            border: none;
+            font-size: 20px;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+    }
+    
+}
